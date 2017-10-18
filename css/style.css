@@ -6,11 +6,104 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 	font-weight: normal;
 	vertical-align: baseline;
 	background: transparent;
+    font-size: 16px;
+    font-family: sans-serif;
 }
+
 html {
 	box-sizing: border-box;
+    color: white;
+    font-size: 16px;
 }
-body {background: gray;}
-h1 {
-    font-size: 36pt;
+
+
+.wrapper-1 {
+    background: url(/image/back.jpg) center;
 }
+.filter {width: auto;
+height: auto;
+
+background-image: url(/image/back.png);
+}
+
+.skeleton{
+    width: 960px;
+    height: 650px;
+    margin: auto;
+    padding: 0 10px ;
+}
+
+.top>div {display: inline-block;}
+
+.top {height: 80px;
+align-content: center;
+overflow: hidden;
+}
+
+.top div {
+    margin-top: 30px;
+}
+.top img {position: absolute;
+ margin-top: 15px;}
+
+.top .logo{
+    margin-left: 60px;
+color: #00e0d0;
+ font-size: 30px;
+position: relative;
+top: -5px;}
+
+.menu {float: right;}
+.menu ul li {
+    display:inline-block;
+ font-size: 13px;
+margin-left: 15px;
+box-sizing:border-box;
+text-decoration: none;}
+
+.menu a {color: aliceblue;
+padding: 5px 0;
+text-decoration: none;}
+.menu a:hover {color: #00e0d0;}
+
+.menu .active {color: #00e0d0;}
+
+.text{margin-top: 120px;
+text-align: center;}
+
+.text h1 {font-size:32px ;}
+
+.text p {font-size: 14px;
+margin: 0 70px 50px;
+padding: 5px;}
+
+.line {height: 1px;
+width: 50px;
+background: #00e0d0;;
+margin: 25px auto ;
+}
+
+
+/* button READ MORE */
+.more {padding:  13px;
+text-decoration: none;
+color: #00e0d0;
+border: 1px solid #00e0d0;
+   
+}
+.more:hover {
+    border: 1px solid transparent;
+ box-shadow: 0 0 10px  #00e0d0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
